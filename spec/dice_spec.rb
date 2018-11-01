@@ -1,5 +1,5 @@
 require 'dice'
 
 describe(Dice) do
-  it { expect(subject).to respond_to(:roll) }
+  it { expect(1..6).to include subject.roll }
 end
