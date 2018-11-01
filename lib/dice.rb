@@ -1,6 +1,6 @@
 class Dice
   def roll(num = 1)
-    results = Array.new(num)
+    results = []
     num.times { results << single_roll }
     results
   end
